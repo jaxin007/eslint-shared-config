@@ -1,7 +1,7 @@
 {
-  "name": "@jaxin007/eslint-shared-config",
+  "name": "@jaxin007/eslint-config-backend",
   "version": "1.0.0",
-  "description": "Back-end ESLint config",
+  "description": "jaxin007 shared Back-end ESLint config",
   "author": "jaxin007",
   "license": "ISC",
   "main": "index.js",
@@ -20,7 +20,8 @@
     "prettier": "^2.0.5"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
