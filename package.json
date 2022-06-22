@@ -1,0 +1,32 @@
+{
+  "name": "@jaxin007/eslint-shared-config",
+  "version": "1.0.0",
+  "description": "Back-end ESLint config",
+  "author": "jaxin007",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.0.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jaxin007/eslint-shared-config.git"
+  },
+  "scripts": {
+    "postinstall": "echo \"ESLint config is sucessfully installed !\""
+  }
+}
