@@ -1,6 +1,6 @@
 {
   "name": "@jaxin007/eslint-config-backend",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "jaxin007 shared Back-end ESLint config",
   "author": "jaxin007",
   "license": "ISC",
