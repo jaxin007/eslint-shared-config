@@ -47,7 +47,8 @@ module.exports = {
                 "object"
             ],
             "newlines-between": "always"
-        }]
+        }],
+        "@typescript-eslint/consistent-type-imports": "error"
     },
     parserOptions: {
         "project": "./tsconfig.json"
